@@ -18,6 +18,7 @@ body {
 .books {
   display: flex;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .book {
@@ -49,4 +50,30 @@ img {
   padding: 4px 8px;
   cursor: pointer;
   color: white;
+}
+
+.update a {
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  width: 240px;
+  padding: 8px;
+  border: solid 1px dimgray;
+}
+
+.form button {
+  border: none;
+  padding: 8px;
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
